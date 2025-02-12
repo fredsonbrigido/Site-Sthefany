@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sthefany Paes - Psicóloga</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f1f0; /* Bege claro */
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      max-width: 200px; /* Ajuste o tamanho do logo conforme necessário */
+      height: auto;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f4c2c2; /* Rosa pastel */
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x400'); /* Substitua por uma imagem real */
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background-color: #f4c2c2; /* Rosa pastel */
+      color: #ffffff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    .content {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .content h2 {
+      color: #f4c2c2; /* Rosa pastel */
+    }
+    .services ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .services li {
+      background-color: #ffffff;
+      margin: 10px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #f4c2c2; /* Rosa pastel */
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header img {
+        max-width: 150px; /* Tamanho menor para dispositivos móveis */
+      }
+      .hero h2 {
+        font-size: 1.8em;
+      }
+      .hero button {
+        padding: 10px 20px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Sthefany Paes - Psicóloga">
+    <p>PSICÓLOGA | CRP-08/41245</p>
+    <nav>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo(a) ao meu espaço de cuidado e acolhimento psicológico</h2>
+    <button>Agende sua consulta</button>
+  </section>
+
+  <section id="sobre" class="content">
+    <h2>Sobre Mim</h2>
+    <p>Olá, eu sou Sthefany Paes, psicóloga clínica com CRP-08/41245. Sou formada em Psicologia e possuo especialização em Terapia Cognitivo-Comportamental (TCC).</p>
+    <p>Atuo com foco no tratamento de ansiedade, depressão, transtornos alimentares e dificuldades emocionais. Meu objetivo é oferecer um espaço seguro e acolhedor para que você possa se desenvolver emocionalmente e encontrar equilíbrio em sua vida.</p>
+    <p>Acredito na importância de uma abordagem humanizada e personalizada, adaptando cada tratamento às necessidades individuais dos meus clientes.</p>
+  </section>
+
+  <section id="servicos" class="content services">
+    <h2>Serviços</h2>
+    <ul>
+      <li>
+        <strong>Terapia Individual</strong>
+        <p>Acompanhamento psicológico personalizado para adultos e adolescentes, com foco no autoconhecimento e no desenvolvimento emocional.</p>
+      </li>
+      <li>
+        <strong>Terapia de Casal</strong>
+        <p>Mediação de conflitos e melhoria da comunicação entre casais, promovendo relacionamentos mais saudáveis e harmoniosos.</p>
+      </li>
+      <li>
+        <strong>Atendimento Online</strong>
+        <p>Consultas acessíveis e flexíveis, realizadas por meio de plataformas digitais, para sua comodidade e segurança.</p>
+      </li>
+      <li>
+        <strong>Orientação Profissional</strong>
+        <p>Auxílio na escolha de carreira e no planejamento profissional, ajudando você a encontrar seu propósito e alcançar seus objetivos.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contato" class="content">
+    <h2>Entre em Contato</h2>
+    <p>Estou à disposição para tirar suas dúvidas e agendar consultas. Entre em contato por um dos canais abaixo:</p>
+    <p><strong>Telefone:</strong> (44) 9 9736-0599</p>
+    <p><strong>E-mail:</strong> sthefanymva@hotmail.com</p>
+    <p><strong>Redes Sociais:</strong> <a href="https://instagram.com/sthefany.psico">@sthefany.psico</a></p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="message" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sthefany Paes - Psicóloga | CRP-08/41245</p>
+    <p><a href="politica-de-privacidade.html">Política de Privacidade</a> | <a href="termos-de-uso.html">Termos de Uso</a></p>
+  </footer>
+</body>
+</html>
